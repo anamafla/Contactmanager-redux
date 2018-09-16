@@ -8,6 +8,7 @@ class Contacts extends Component {
 
   componentDidMount() {
     this.props.getContacts();
+    console.log('Rendering Contacts', this.props.contacts)
   }
   
   render() {
